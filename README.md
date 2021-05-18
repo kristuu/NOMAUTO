@@ -1,1 +1,2 @@
 # NOMAUTO
+cukurins cukurins cukurins
