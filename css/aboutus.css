@@ -1,0 +1,100 @@
+html {
+    width: 100%;
+}
+
+header {
+    background-color: #004F2D;
+    padding: 150px;
+    background-position: 0%;
+}
+#galvene {
+}
+
+section {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: left;
+    width: 30%;
+    height: 300px;
+    padding: 20px;
+}
+
+#mape {
+    width: 400px;
+    display: inline-block;
+    margin-top: -40%;
+    padding-left: 10%;
+}
+
+#atrasanas-vieta {
+    margin-top: 0%;
+    font-size: 26px;
+    text-decoration: underline;
+    padding-left: 9%;
+    height: 10px;
+    display: inline-block;
+}
+
+#adrese {
+    margin-top: 1%;
+    font-size: 18px;
+    padding-left: 9%;
+    width: 500px;
+    height: 8px;
+    display: inline-block;
+}
+
+#post-code {
+    padding-left: 9%;
+    margin-top: 0%;
+    font-size: 18px;
+}
+
+article {
+    float: right;
+    padding-right: 400px;
+    width: 400px;
+    height: 100px;
+}
+
+#teksts {
+    margin-top: -30%;
+    background-color: #007643;
+    top: 1%;
+    padding: 10px;
+    color: white;
+    width: 360px;
+    height: 140px;
+    font-size: 24px;
+}
+
+footer {
+    margin-top: -12%;
+}
+
+#kontakti {
+    margin-left: 80%;
+    font-size: 24px;
+}
+
+#epasts {
+    margin-left: 80%;
+    font-size: 18px;
+    margin-top: -1.5%;
+}
+
+#tel-nr {
+    margin-left: 80%;
+    font-size: 18px;
+    margin-top: -1%;
+}
+
+#fakss {
+    margin-left: 80%;
+    font-size: 18px;
+    margin-top: -1%;
+}
