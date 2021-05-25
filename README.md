@@ -4,9 +4,9 @@
 
 ### Autori:
 
-*Kristiāns Artis Bērziņš
-*Katrīna Gandzjuka
-\*Ilona Grebņova
+- Kristiāns Artis Bērziņš
+- Katrīna Gandzjuka
+- Ilona Grebņova
 
 ### Figma:
 
