@@ -98,6 +98,7 @@ header {
   padding-left: 15px;
   padding-right: 10px;
   margin-right: 0.5em;
+<<<<<<< HEAD
 }
 
 #meklesanarek,
@@ -105,6 +106,15 @@ header {
   font-family: Rubik;
 }
 
+=======
+}
+
+#meklesanarek,
+#izvelerek {
+  font-family: Rubik;
+}
+
+>>>>>>> aebc5207c437ee379e09231076ecaacc46d953a0
 #meklesanarek:focus,
 #izvelerek:focus {
   outline: none;
@@ -118,4 +128,8 @@ header {
   width: 200px;
   font-family: Rubik;
   font-size: 20px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> aebc5207c437ee379e09231076ecaacc46d953a0

@@ -1,0 +1,113 @@
+@font-face {
+  font-family: Cabin;
+  src: url("/fonts/cabin.ttf");
+}
+@font-face {
+  font-family: Josefin Sans;
+  src: url("/fonts/josefinsans.ttf");
+}
+@font-face {
+  font-family: Rubik;
+  src: url("/fonts/rubik.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 1em 0 3em 0;
+}
+
+#poga1 {
+  position: relative;
+  font-family: "Josefin Sans";
+  color: #0e402d;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: 0.185cm;
+  margin: 0px 30px;
+  height: 50px;
+  background: transparent;
+  border: 0px;
+}
+
+#nosaukums {
+  position: relative;
+  font-family: "Josefin Sans";
+  color: #0e402d;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 55px;
+  margin: 0px;
+}
+
+#greenthingy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  padding: 4px;
+  left: 0%;
+  background-color: #004f2d;
+  text-align: center;
+  width: 40%;
+  height: 100%;
+}
+
+#column {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+#info {
+  float: right;
+  margin-right: 10%;
+}
+#teksts1 {
+  margin-top: 25%;
+  width: 520px;
+  height: 100px;
+  font-family: "Rubik";
+}
+
+h1 {
+  font-size: 26px;
+  font-family: "Cabin";
+  font-weight: 100;
+}
+
+#teksts2 {
+  margin-top: 50%;
+  width: 520px;
+  height: 100px;
+  font-family: "Rubik";
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 26px;
+  font-family: "Cabin";
+}
+
+img {
+  max-width: 80%;
+  padding: 4px;
+}

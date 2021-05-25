@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>meklēšanas rezultāti</title>
-    <link rel="stylesheet" href="SearchResultPage.css" />
+    <link rel="stylesheet" href="../css/SearchResultPage.css" />
   </head>
   <body>
-    <div id="galvene">
-      <button class="gPoga">meklēšana</button>
-      <p class="virsraksts">AUTONOMA</p>
-      <button class="gPoga">rezervācija</button>
-    </div>
+    <header>
+      <button id="poga1">meklēšana</button>
+      <p id="nosaukums">AUTONOMA</p>
+      <button id="poga1">rezervācija</button>
+    </header>
     <div id="info">
       <div id="teksts1">
         <h1>Suspendisse fringilla</h1>
@@ -35,11 +35,13 @@
       </div>
     </div>
     <div id="greenthingy">
-      <div id="photo">
-        <img src="atteli/foto3.png" width="380px" height="250px" />
-      </div>
-      <div id="photo">
-        <img src="atteli/foto4.png" width="380px" height="250px" />
+      <div id="column">
+        <div class="attels">
+          <img src="../atteli/foto3.jpg" />
+        </div>
+        <div class="attels">
+          <img src="../atteli/foto4.jpg" />
+        </div>
       </div>
     </div>
   </body>
