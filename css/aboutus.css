@@ -3,16 +3,23 @@ html {
 }
 
 header {
+<<<<<<< HEAD
   background-color: #004f2d;
   padding: 150px;
   background-position: 0%;
+=======
+    background-color: #004F2D;
+    padding: 150px;
+>>>>>>> b60552ae585e2480ef891ae25003e98021e24107
 }
+
 #galvene {
   display: flex;
   justify-content: center;
 }
 
 #nosaukums {
+<<<<<<< HEAD
   position: relative;
   font-family: "Josefin Sans";
   color: white;
@@ -21,7 +28,18 @@ header {
   line-height: 55px;
   margin: 0px;
   margin-top: -8%;
+=======
+    position: relative;
+    font-family: "Josefin Sans";
+    color: white;
+    font-weight: 700px;
+    font-size: 36px;
+    line-height: 55px;
+    margin: 0px;
+    margin-top: -8%;
+>>>>>>> b60552ae585e2480ef891ae25003e98021e24107
 }
+
 #poga1 {
   position: relative;
   font-family: "Josefin Sans";
@@ -37,6 +55,7 @@ header {
   margin-top: -8%;
 }
 
+<<<<<<< HEAD
 section {
   content: "";
   display: table;
@@ -125,3 +144,76 @@ footer {
   font-size: 18px;
   margin-top: -1%;
 }
+=======
+nav {
+    float: left;
+    width: 30%;
+}
+
+#mape {
+    display: inline-block;
+    margin-top: -30%;
+    padding-left: 10%;
+}
+
+#atrasanas-vieta {
+    margin-top: 2%;
+    font-size: 26px;
+    text-decoration: underline;
+    padding-left: 10%;
+    height: 10px;
+}
+
+#adrese {
+    margin-top: 1%;
+    font-size: 18px;
+    padding-left: 10%;
+    height: 8px;
+}
+
+#post-code {
+    padding-left: 10%;
+    margin-top: 0%;
+    font-size: 18px;
+}
+
+aside {
+    float: right;
+    width: 70%;
+}
+
+#teksts {
+    margin-top: -10%;
+    color: white;
+    background-color: #007643;
+    font-size: 24px;
+    width: 360px;
+    height: 140px;
+    padding: 30px;
+    margin-left: 250px;
+}
+
+#info {
+    margin-top: 10%;
+    margin-left: 640px;
+}
+
+#kontakti {
+    font-size: 24px;
+}
+
+#epasts {
+    font-size: 18px;
+    margin-top: -1.5%;
+}
+
+#tel-nr {
+    font-size: 18px;
+    margin-top: -1%;
+}
+
+#fakss {
+    font-size: 18px;
+    margin-top: -1%;
+}
+>>>>>>> b60552ae585e2480ef891ae25003e98021e24107

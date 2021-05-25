@@ -1,0 +1,96 @@
+html {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#galvene {
+    display: flex;
+    justify-content: center;
+}
+
+#poga1 {
+    position: relative;
+    font-family: "Josefin Sans";
+    color: #0e402d;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.185cm;
+    margin: 0px 30px;
+    height: 50px;
+    background: transparent;
+    border: 0px;
+}
+
+#nosaukums {
+    position: relative;
+    font-family: "Josefin Sans";
+    color: #0e402d;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 55px;
+    margin: 0px;
+}
+
+section {
+    float: left;
+    background-color: #004F2D;
+    width: 500px;
+    height: 630px;
+    margin-top: 20px;
+}
+
+#attels {
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+aside {
+    display: flex;
+    float: right;
+    margin-top: 50px;
+    margin-right: 700px;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 26px;
+    width: 400px;
+    height: 30px;
+    display: inline-block;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 26px;
+    width: 120px;
+    height: 30px;
+}
+#teksts {
+    font-size: 20px;
+    width: 500px;
+    height: 100px;
+    display: inline-block;
+}
+
+#car1 {
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+#teksts1 {
+    font-size: 20px;
+}
+
+#car2 {
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    padding: 15px;
+}
