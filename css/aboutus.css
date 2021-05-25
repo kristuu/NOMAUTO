@@ -1,127 +1,127 @@
 html {
-    width: 100%;
+  width: 100%;
 }
 
 header {
-    background-color: #004F2D;
-    padding: 150px;
-    background-position: 0%;
+  background-color: #004f2d;
+  padding: 150px;
+  background-position: 0%;
 }
 #galvene {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #nosaukums {
-    position: relative;
-    font-family: "Josefin Sans";
-    color: white;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 55px;
-    margin: 0px;
-    margin-top: -8%;
+  position: relative;
+  font-family: "Josefin Sans";
+  color: white;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 55px;
+  margin: 0px;
+  margin-top: -8%;
 }
 #poga1 {
-    position: relative;
-    font-family: "Josefin Sans";
-    color: white;
-    font-weight: 100;
-    font-size: 22px;
-    line-height: 36px;
-    letter-spacing: 0.185cm;
-    margin: 0px 30px;
-    height: 50px;
-    background: transparent;
-    border: 0px;
-    margin-top: -8%;
+  position: relative;
+  font-family: "Josefin Sans";
+  color: white;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: 0.185cm;
+  margin: 0px 30px;
+  height: 50px;
+  background: transparent;
+  border: 0px;
+  margin-top: -8%;
 }
 
 section {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 nav {
-    float: left;
-    width: 30%;
-    height: 300px;
-    padding: 20px;
+  float: left;
+  width: 30%;
+  height: 300px;
+  padding: 20px;
 }
 
 #mape {
-    width: 400px;
-    display: inline-block;
-    margin-top: -40%;
-    padding-left: 10%;
+  width: 400px;
+  display: inline-block;
+  margin-top: -40%;
+  padding-left: 10%;
 }
 
 #atrasanas-vieta {
-    margin-top: 0%;
-    font-size: 26px;
-    text-decoration: underline;
-    padding-left: 9%;
-    height: 10px;
-    display: inline-block;
+  margin-top: 0%;
+  font-size: 26px;
+  text-decoration: underline;
+  padding-left: 9%;
+  height: 10px;
+  display: inline-block;
 }
 
 #adrese {
-    margin-top: 1%;
-    font-size: 18px;
-    padding-left: 9%;
-    width: 500px;
-    height: 8px;
-    display: inline-block;
+  margin-top: 1%;
+  font-size: 18px;
+  padding-left: 9%;
+  width: 500px;
+  height: 8px;
+  display: inline-block;
 }
 
 #post-code {
-    padding-left: 9%;
-    margin-top: 0%;
-    font-size: 18px;
+  padding-left: 9%;
+  margin-top: 0%;
+  font-size: 18px;
 }
 
 article {
-    float: right;
-    padding-right: 400px;
-    width: 400px;
-    height: 100px;
+  float: right;
+  padding-right: 400px;
+  width: 400px;
+  height: 100px;
 }
 
 #teksts {
-    margin-top: -30%;
-    background-color: #007643;
-    top: 1%;
-    padding: 10px;
-    color: white;
-    width: 360px;
-    height: 140px;
-    font-size: 24px;
+  margin-top: -30%;
+  background-color: #007643;
+  top: 1%;
+  padding: 10px;
+  color: white;
+  width: 360px;
+  height: 140px;
+  font-size: 24px;
 }
 
 footer {
-    margin-top: -12%;
+  margin-top: -12%;
 }
 
 #kontakti {
-    margin-left: 80%;
-    font-size: 24px;
+  margin-left: 80%;
+  font-size: 24px;
 }
 
 #epasts {
-    margin-left: 80%;
-    font-size: 18px;
-    margin-top: -1.5%;
+  margin-left: 80%;
+  font-size: 18px;
+  margin-top: -1.5%;
 }
 
 #tel-nr {
-    margin-left: 80%;
-    font-size: 18px;
-    margin-top: -1%;
+  margin-left: 80%;
+  font-size: 18px;
+  margin-top: -1%;
 }
 
 #fakss {
-    margin-left: 80%;
-    font-size: 18px;
-    margin-top: -1%;
+  margin-left: 80%;
+  font-size: 18px;
+  margin-top: -1%;
 }
