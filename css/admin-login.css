@@ -113,6 +113,11 @@ input {
   margin-bottom: 70px;
 }
 
+#userField,
+#passField {
+  font-family: Rubik;
+}
+
 #login {
   width: 200px;
   height: 50px;
