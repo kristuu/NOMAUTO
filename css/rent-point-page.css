@@ -8,6 +8,7 @@ header {
 }
 
 #galvene {
+    margin-top: 1%;
     display: flex;
     justify-content: center;
 }
@@ -30,7 +31,6 @@ header {
     position: relative;
     font-family: "Josefin Sans";
     color: #0e402d;
-    font-weight: 700;
     font-size: 36px;
     line-height: 55px;
     margin: 0px;
@@ -39,58 +39,60 @@ header {
 section {
     float: left;
     background-color: #004F2D;
-    width: 500px;
-    height: 630px;
+    width: 40%;
     margin-top: 20px;
 }
 
 #attels {
+    margin-left: 90px;
     margin-top: 40px;
-    margin-left: 60px;
+    margin-bottom: 15px;
 }
 
 aside {
-    display: flex;
     float: right;
-    margin-top: 50px;
-    margin-right: 700px;
+    width: 60%;
+    margin-top: 30px;
 }
 
 h1 {
+    margin-top: 1%;
     font-weight: normal;
     font-size: 26px;
     width: 400px;
     height: 30px;
-    display: inline-block;
+    margin-left: 50px;
 }
 
 h2 {
+    margin-top: 6%;
     font-weight: normal;
     font-size: 26px;
     width: 120px;
-    height: 30px;
+    margin-left: 50px;
 }
+
 #teksts {
+    margin-top: 3%;
     font-size: 20px;
     width: 500px;
     height: 100px;
-    display: inline-block;
+    margin-left: 60px;
 }
 
-#car1 {
+#car {
+    margin-top: 1%;
+    font-size: 20px; 
+    padding: 5px; 
+    margin-left: 50px;
     display: inline-block;
-    margin: 10px;
-    font-size: 20px;
-    padding: 15px;
+    vertical-align: top;
+    width: 230px;
+    height: 150px;
 }
 
 #teksts1 {
+    margin-top: 0px;
     font-size: 20px;
-}
-
-#car2 {
     display: inline-block;
-    margin: 10px;
-    font-size: 20px;
-    padding: 15px;
 }
