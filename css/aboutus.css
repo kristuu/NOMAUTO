@@ -4,12 +4,15 @@ html {
 
 header {
   background-color: #004f2d;
-  padding: 150px;
+  height: 300px;
+  background-position: 0%;
+  padding: 10px;
 }
 
 #galvene {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 #nosaukums {
@@ -20,7 +23,6 @@ header {
   font-size: 36px;
   line-height: 55px;
   margin: 0px;
-  margin-top: -8%;
 }
 
 #poga1 {
@@ -35,12 +37,12 @@ header {
   height: 50px;
   background: transparent;
   border: 0px;
-  margin-top: -8%;
 }
 
-nav {
+section {
   float: left;
   width: 30%;
+  height: 300px;
 }
 
 #mape {
@@ -77,21 +79,25 @@ aside {
 
 #teksts {
   margin-top: -10%;
+  background-color: #007643;
+  top: 1%;
+  padding: 25px;
   color: white;
   background-color: #007643;
   font-size: 24px;
   width: 360px;
   height: 140px;
-  padding: 30px;
-  margin-left: 250px;
+  font-size: 24px;
+  margin-left: 300px;
 }
 
 #info {
-  margin-top: 10%;
-  margin-left: 640px;
+  margin-left: 700px;
+  margin-top: 100px;
 }
 
 #kontakti {
+  text-decoration: underline;
   font-size: 24px;
 }
 
