@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Cabin;
+    src: url("/fonts/cabin.ttf");
+}
+  @font-face {
+    font-family: Josefin Sans;
+    src: url("/fonts/josefinsans.ttf");
+}
+  @font-face {
+    font-family: Rubik;
+    src: url("/fonts/rubik.ttf");
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1em 0 3em 0;
+}
+
+#poga1 {
+    position: relative;
+    font-family: "Josefin Sans";
+    color: #0e402d;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.185cm;
+    margin: 0px 30px;
+    height: 50px;
+    background: transparent;
+    border: 0px;
+}
+
+#nosaukums,
+#nosaukums2 {
+  position: relative;
+  font-family: "Josefin Sans";
+  color: #0e402d;
+  font-weight: 700;
+  margin: 0px;
+}
+
+#nosaukums {
+  font-size: 36px;
+}
+
+#nosaukums2 {
+  font-size: 24px;
+}
+
+section {
+  display: inline-block;
+  width: 640px;
+  height: auto;
+}
+
+h1 {
+  margin-left: 60px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+#teksts {
+  margin-top: 2px;
+  margin-left: 70px;
+  width: 510px;
+  height: 200px;
+  display: inline-block;
+  font-size: 24px;
+}
+
+#reservation-button1 {
+  margin-top: 30px;
+  margin-left: 302px;
+  background-color: #E0DDDD;
+  border: none;
+  padding: 12px 40px;
+  text-align: center;
+  font-size: 24px;
+}
+
+#reservation-button2 {
+  margin-top: 30px;
+  background-color: #E0DDDD;
+  border: none;
+  padding: 12px 40px;
+  text-align: center;
+  font-size: 24px;
+}
+
+aside {
+  width: 50%;
+  float: right;
+  right: 0%;
+  background-color: #004F2D;
+  height: 572px;
+  width: 820px;
+  margin-right: -0.5%;
+}
+
+#attels {
+  margin: 60px;
+  text-align: center;
+}
