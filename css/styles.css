@@ -1,0 +1,23 @@
+/* Base styles for the site */
+
+/* Force pointer cursor on all buttons and links */
+button, 
+a, 
+input[type="button"], 
+input[type="submit"],
+.button,
+[role="button"] {
+  cursor: pointer !important;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic link styling */
+a {
+  color: #004f2d;
+  text-decoration: underline;
+} 

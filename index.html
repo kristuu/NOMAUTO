@@ -4,17 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NOMAUTO</title>
-    <!-- Using base href to ensure all relative paths work correctly -->
-    <base href="./">
+    <!-- Using only meta refresh for redirection, removing JavaScript redirection -->
     <meta http-equiv="refresh" content="0; url=html/homepage.html">
     <link rel="stylesheet" href="css/styles.css">
-    <script>
-        console.log("Redirecting to homepage...");
-        // Use window.location.origin to get the current domain
-        var baseUrl = window.location.pathname.split('/').slice(0, -1).join('/');
-        if (baseUrl === '') baseUrl = '.';
-        window.location.href = baseUrl + "/html/homepage.html";
-    </script>
 </head>
 <body>
     <p>If you are not redirected automatically, <a href="html/homepage.html">click here</a>.</p>

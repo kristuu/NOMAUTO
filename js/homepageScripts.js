@@ -1,8 +1,8 @@
 console.log("Homepage script loaded successfully!");
 
 // DOM elements
-const searchButton = document.getElementById("poga1");
-const reservationButton = document.querySelectorAll("#poga1")[1];
+const searchButton = document.getElementById("searchButton");
+const reservationButton = document.getElementById("reservationButton");
 const filterSelect = document.getElementById("izvelerek");
 const locationSelect = document.getElementById("meklesanarek");
 const searchSubmitButton = document.getElementById("mekletpoga");
@@ -14,6 +14,9 @@ function getPagePath(page) {
 
 document.addEventListener("DOMContentLoaded", function () {
   console.log("DOM fully loaded");
+  console.log("Search button found:", searchButton !== null);
+  console.log("Reservation button found:", reservationButton !== null);
+  console.log("Search submit button found:", searchSubmitButton !== null);
 
   // Search button functionality
   if (searchButton) {

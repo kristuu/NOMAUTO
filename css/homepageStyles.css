@@ -18,6 +18,11 @@ header {
   margin: 1em 0 3em 0;
 }
 
+/* Global button styles */
+button {
+  cursor: pointer !important;
+}
+
 #poga1 {
   position: relative;
   font-family: "Josefin Sans";
@@ -30,7 +35,7 @@ header {
   height: 50px;
   background: transparent;
   border: 0px;
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 #nosaukums {
@@ -120,5 +125,5 @@ header {
   width: 200px;
   font-family: Rubik;
   font-size: 20px;
-  cursor: pointer;
+  cursor: pointer !important;
 }
