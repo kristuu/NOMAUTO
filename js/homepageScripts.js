@@ -7,6 +7,11 @@ const filterSelect = document.getElementById("izvelerek");
 const locationSelect = document.getElementById("meklesanarek");
 const searchSubmitButton = document.getElementById("mekletpoga");
 
+// Ensure paths work on GitHub Pages
+function getPagePath(page) {
+  return "html/" + page;
+}
+
 document.addEventListener("DOMContentLoaded", function () {
   console.log("DOM fully loaded");
 
@@ -14,14 +19,14 @@ document.addEventListener("DOMContentLoaded", function () {
   if (searchButton) {
     searchButton.addEventListener("click", function () {
       console.log("Search button clicked");
-      window.location.href = "SearchResultPage.html";
+      window.location.href = getPagePath("SearchResultPage.html");
     });
   }
 
   if (reservationButton) {
     reservationButton.addEventListener("click", function () {
       console.log("Reservation button clicked");
-      window.location.href = "CarReservation.html";
+      window.location.href = getPagePath("CarReservation.html");
     });
   }
 
@@ -32,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const selectedLocation = locationSelect ? locationSelect.value : "";
       console.log("Filter:", selectedFilter, "Location:", selectedLocation);
 
-      window.location.href = "SearchResultPage.html";
+      window.location.href = getPagePath("SearchResultPage.html");
     });
   }
 });
