@@ -1,0 +1,9 @@
+[33mcommit 255de4e673a7bac2b4654aee671f4c72b5f4eb7a[m
+Author: Kristians Artis Berzins <kristiansberzins@outlook.lv>
+Date:   Tue May 18 15:54:14 2021 +0300
+
+    Added files
+
+[1mdiff --git a/js/homepageScripts.js b/js/homepageScripts.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
