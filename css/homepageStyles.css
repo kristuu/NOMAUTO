@@ -1,14 +1,14 @@
 @font-face {
   font-family: Cabin;
-  src: url("/fonts/cabin.ttf");
+  src: url("fonts/cabin.ttf");
 }
 @font-face {
   font-family: Josefin Sans;
-  src: url("/fonts/josefinsans.ttf");
+  src: url("fonts/josefinsans.ttf");
 }
 @font-face {
   font-family: Rubik;
-  src: url("/fonts/rubik.ttf");
+  src: url("fonts/rubik.ttf");
 }
 
 header {
@@ -30,6 +30,7 @@ header {
   height: 50px;
   background: transparent;
   border: 0px;
+  cursor: pointer;
 }
 
 #nosaukums {
@@ -119,4 +120,5 @@ header {
   width: 200px;
   font-family: Rubik;
   font-size: 20px;
+  cursor: pointer;
 }
